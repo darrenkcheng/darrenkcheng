@@ -1,7 +1,6 @@
 ---
 ---
 
-@import "{{ site.theme }}";
 	/* STYLE FORMATTING *****************************/
 		/* Colour Guide 
 			BG color: 		#fdfdfd
@@ -121,7 +120,7 @@
 			max-width:800px;
 			margin:auto;
 			height:140px;
-			background-image: url("https://raw.githubusercontent.com/darrenkcheng/darrenkcheng.github.io/master/imgs/Banner_Morraine.jpg");
+			background-image: url("/assets/imgs/Banner_Morraine.jpg");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -186,7 +185,8 @@
 		}
 		/* For narrow browsers - stacks navigation layout*/ 
 		@media screen and (max-width: 400px) {
-		ul.nav li.right, ul.nav li {float:none; font-size: 10px; letter-spacing: 0.5; line-height: .25; padding: 0; margin: 0;}, ul.nav li.divider {visibility: hidden; z-index:5;}
+		ul.nav li.right, ul.nav li {float:none; font-size: 10px; letter-spacing: 0.5; line-height: .25; padding: 0; margin: 0;}
+		span.anchor {top:-140px;}
 		}
 	 /* FOOTER **********************************************/
 		footer {
