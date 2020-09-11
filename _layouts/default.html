@@ -5,40 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <!-- META DATA -------->
-      <meta name="description" content="Personal website for Darren Kai-Young Cheng">
-	  <meta name="keywords" content="personal website healthcare researcher">
-	  <meta name="author" content="Darren K. Cheng">
-
-	  <title>Darren K. Cheng</title>
-	  <link rel="shortcut icon" href="./favicons/favicon.ico">
-	  <link rel="icon" sizes="16x16 32x32 64x64" href="./favicons/favicon.ico">
-	  <link rel="icon" type="image/png" sizes="196x196" href="./favicons/favicon-192.png">
-	  <link rel="icon" type="image/png" sizes="160x160" href="./favicons/favicon-160.png">
-	  <link rel="icon" type="image/png" sizes="96x96" href="./favicons/favicon-96.png">
-	  <link rel="icon" type="image/png" sizes="64x64" href="./favicons/favicon-64.png">
-	  <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32.png">
-	  <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16.png">
-	  <link rel="apple-touch-icon" href="./favicons/favicon-57.png">
-	  <link rel="apple-touch-icon" sizes="114x114" href="./favicons/favicon-114.png">
-	  <link rel="apple-touch-icon" sizes="72x72" href="./favicons/favicon-72.png">
-	  <link rel="apple-touch-icon" sizes="144x144" href="./favicons/favicon-144.png">
-	  <link rel="apple-touch-icon" sizes="60x60" href="./favicons/favicon-60.png">
-	  <link rel="apple-touch-icon" sizes="120x120" href="./favicons/favicon-120.png">
-	  <link rel="apple-touch-icon" sizes="76x76" href="./favicons/favicon-76.png">
-	  <link rel="apple-touch-icon" sizes="152x152" href="./favicons/favicon-152.png">
-	  <link rel="apple-touch-icon" sizes="180x180" href="./favicons/favicon-180.png">
-	  <meta name="msapplication-TileColor" content="#FFFFFF">
-	  <meta name="msapplication-TileImage" content="./favicons/favicon-144.png">
-	  <meta name="msapplication-config" content="./favicons/browserconfig.xml">
-    
-    <!-- STYLE ----------->
-	  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <meta charset="UTF-8">
-    
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: darrenkcheng.github.build_revision | relative_url }}">
 
 {% seo %}
   </head>
@@ -48,17 +15,17 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          {% if site.github.is_project_page %}
-            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+          {% if darrenkcheng.github.is_project_page %}
+            <a id="forkme_banner" href="{{ darrenkcheng.github.repository_url }}">View on GitHub</a>
           {% endif %}
 
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          <h1 id="project_title">{{ site.title | default: darrenkcheng.github.repository_name }}</h1>
+          <h2 id="project_tagline">{{ site.description | default: darrenkcheng.github.project_tagline }}</h2>
 
           {% if site.show_downloads %}
             <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
+              <a class="zip_download_link" href="{{ darrenkcheng.github.zip_url }}">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="{{ darrenkcheng.github.tar_url }}">Download this project as a tar.gz file</a>
             </section>
           {% endif %}
         </header>
@@ -74,8 +41,8 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% if darrenkcheng.github.is_project_page %}
+        <p class="copyright">{{ site.title | default: darrenkcheng.github.repository_name }} maintained by <a href="{{ darrenkcheng.github.owner_url }}">{{ darrenkcheng.github.owner_name }}</a></p>
         {% endif %}
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
