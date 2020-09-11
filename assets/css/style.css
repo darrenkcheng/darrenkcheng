@@ -1,0 +1,218 @@
+---
+---
+@import "{{ site.theme}}";
+/* STYLE FORMATTING *****************************/
+		/* Colour Guide 
+			BG color: 		#fdfdfd
+			Text color: 	#2b2b2b
+			Header color:	#524d4a
+			Link color: 	#59330f
+			Link hover:		#2b2b2b
+			Nav bg color:	#f6f6f6
+			Nav link color: #524d4a
+			Nav link hover:	#59330f
+			Nav bg hover:	#dedddc
+			*/
+		/* PAGE STYLE */
+		body {
+			background-color: #fdfdfd;
+			font-family: 'Bitter', "Times", serif; 
+			font-size: 14px;
+			font-weight:300;
+			letter-spacing: .5px;
+			line-height:25px;
+			color:#2b2b2b;
+		}
+		h1 {
+			font-family: 'Raleway', "Open Sans", sans-serif;
+			font-size: 23px;
+			font-weight: 700;
+			color:#524d4a;
+			letter-spacing: 4px;
+			margin-top: 5px;
+			margin-bottom: 3px;
+		}
+		h2 {
+			font-family: 'Raleway', "Open Sans", sans-serif;
+			font-size: 18px;
+			font-weight: 600;
+			color:#524d4a;
+			letter-spacing: 2px;
+			margin-top: 5px;
+			margin-bottom: 3px;
+		}
+		h3{
+			font-family: 'Bitter', "Times", serif;
+			font-size: 15px;
+			font-weight: 500;
+			font-style: italic;
+			color:#524d4a;
+			letter-spacing: 1.5px;
+			margin-top: 5px;
+			margin-bottom: 3px;
+		}
+		p {
+			padding: 5px 0 10px 0;
+			margin: 0;
+		}
+		a {color:#59330f; font-weight:400; transition: 0.1s}
+		a:hover {
+			opacity:0.5;
+			transition: 0.3s;}
+		.emojilink {
+			padding-top: 2px;
+			opacity:inherit;
+			transition: 0.1s;
+		}
+		.emojilink:hover {
+			opacity:0.5;
+			transition: 0.3s;
+		}
+		em{
+			font-style: italic;
+			color:#524d4a;
+			font-weight: 400;
+		}
+		ul {
+			list-style-position: outside;
+			margin:0 0 0 0;
+			padding-right:5px;
+			padding-left: 22px;
+			padding-bottom: 10px;
+			color:#2b2b2b;
+		}
+		ol {
+			list-style-position: outside;
+			margin:0 0 0 0;
+			padding-left: 22px;
+			padding-bottom: 10px;
+			color:#2b2b2b;
+		}
+		blockquote {
+			border-left: 1px solid #dedddc;
+			margin:10px 0 10px 0;
+			padding-left: 22px;
+		}
+		dt {
+			font-family: 'Raleway', "Open Sans", sans-serif;
+			font-weight: 400;
+			font-style: italic;
+		}
+		dd {
+			font-weight: 200;
+			font-style: italic;
+		}
+
+		.container {
+			padding:10px;
+			max-width:750px;
+			min-height:475px;
+			margin:auto;
+		}
+		hr {
+		 	height:1px;
+		 	border-width:0;
+		 	background-color:#dedddc;
+		 	margin-top: 15px;
+		 	margin-bottom:5px;
+		 }
+	 /* BANNER ***********************************************/
+		.banner {
+			max-width:800px;
+			margin:auto;
+			height:130px;
+			background-image: url("/assets/imgs/Banner_Morraine.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position:relative;
+		}
+		.banner-text a{
+			float:right;
+			text-align: right;
+			margin-right:25px;
+			margin-top:95px;
+			font-family: 'Raleway', sans-serif;
+			font-size:30px;
+			font-weight: 200;
+			color:white;
+			letter-spacing: 2px;
+			text-shadow: 0 0 12px rgba(0,0,0,0.8);
+			text-decoration: none;
+		}
+		.banner-text a:hover{
+			text-decoration-line: underline;
+			text-decoration-thickness: 1px;
+		}
+	 /* NAVIGATION BAR ***************************************/
+		ul.nav {
+			max-width:800px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 500;
+			position: -webkit-sticky; /* for Safari */
+			position: sticky;
+			top: 0;
+			width: 100%;
+			list-style-type: none;
+			margin:auto;
+			padding: 0;
+			font-size: 13px;
+			letter-spacing: 1px;
+			overflow-x: auto;
+			overflow-y: hidden;
+			background-color: #f6f6f6;
+			z-index: 99;
+		}
+		ul.nav li {
+			float: left;
+			text-align:center;
+		}
+		ul.nav li a {
+			font-weight: 600;
+			color: #524d4a;
+			display: block;
+			padding: 6px 10px;
+			text-decoration: none;
+			transition: 0.1s;
+		}
+		ul.nav li a:hover {
+			color:#59330f;
+			opacity:0.8;
+			background-color: #dedddc;
+			transition: 0.3s;
+		}
+		ul.nav li.right {
+			float: right;
+		}
+		/* For narrow browsers - stacks navigation layout*/ 
+		@media screen and (max-width: 400px) {
+		ul.nav li.right, ul.nav li {float:none; font-size: 10px; letter-spacing: 0.5; line-height: .25; padding: 0; margin: 0;}, ul.nav li.divider {visibility: hidden; z-index:5;}
+		}
+	 /* FOOTER **********************************************/
+		footer {
+			max-width:800px;
+			margin:auto;
+			margin-top: 50px;
+			padding:10px;
+			font-family: 'Raleway', "Open Sans", sans-serif;
+			font-weight: 300;
+			font-size: 12px;
+			line-height: 15px;
+			text-align: center;
+		}
+		footer a{
+			color:#524d4a;
+			font-weight: 400;
+		}
+		.fa {
+			font-size: 13px;
+			text-decoration: none;
+			margin:auto;
+			display:visible;
+			transition: 0.1s;
+		}
+		.fa:hover {
+			opacity: 0.7;
+			color:white;
+			transition: 0.3s;
+		}
