@@ -31,14 +31,14 @@ dt { font-family: 'Raleway', "Open Sans", sans-serif; font-weight: 400; font-sty
 
 dd { font-weight: 200; font-style: italic; }
 
-.container { padding: 10px; max-width: 750px; margin: auto; }
+.container { padding: 10px; max-width: 750px; min-height: 475px; margin: auto; }
 
 hr { height: 1px; border-width: 0; background-color: #dedddc; margin-top: 15px; margin-bottom: 5px; }
 
 /* BANNER ***********************************************/
-.banner { max-width: 800px; margin: auto; height: 140px; background-image: url("/assets/imgs/Banner_Morraine.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; }
+.banner { max-width: 800px; margin: auto; height: 130px; background-image: url("/assets/imgs/Banner_Morraine.jpg"); background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; }
 
-.banner-text a { float: right; text-align: right; margin-right: 10px; margin-top: 105px; font-family: 'Raleway', sans-serif; font-size: 30px; font-weight: 200; color: white; letter-spacing: 2px; text-shadow: 0 0 12px rgba(0, 0, 0, 0.8); text-decoration: none; }
+.banner-text a { float: right; text-align: right; margin-right: 25px; margin-top: 95px; font-family: 'Raleway', sans-serif; font-size: 30px; font-weight: 200; color: white; letter-spacing: 2px; text-shadow: 0 0 12px rgba(0, 0, 0, 0.8); text-decoration: none; }
 
 .banner-text a:hover { opacity: 0.7; }
 
@@ -54,7 +54,7 @@ ul.nav li a:hover { color: #59330f; opacity: 0.8; background-color: #dedddc; tra
 ul.nav li.right { float: right; }
 
 /* For narrow browsers - stacks navigation layout*/
-@media screen and (max-width: 400px) { ul.nav li.right, ul.nav li { float: none; font-size: 10px; letter-spacing: 0.5; line-height: .25; padding: 0; margin: 0; } span.anchor { top: -140px; } }
+@media screen and (max-width: 600px) { ul.nav li.right, ul.nav li { float: none; font-size: 10px; letter-spacing: 0.5; line-height: .25; padding: 0; margin: 0; } span.anchor { top: -140px; } }
 
 /* FOOTER **********************************************/
 footer { max-width: 800px; margin: auto; margin-top: 50px; padding: 10px; font-family: 'Raleway', "Open Sans", sans-serif; font-weight: 300; font-size: 12px; line-height: 15px; text-align: center; }
