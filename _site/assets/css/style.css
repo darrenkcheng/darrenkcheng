@@ -21,7 +21,7 @@ a:hover { opacity: 0.5; transition: 0.3s; }
 
 em { font-style: italic; color: #524d4a; font-weight: 400; }
 
-ul { list-style-position: outside; margin: 0 0 0 0; padding-right: 5px; padding-left: 22px; padding-bottom: 10px; color: #2b2b2b; }
+ul { list-style-position: outside; margin: 0 0 0 0; padding-right: 5px; padding-left: 22px; color: #2b2b2b; }
 
 ol { list-style-position: outside; margin: 0 0 0 0; padding-left: 22px; padding-bottom: 10px; color: #2b2b2b; }
 
@@ -30,6 +30,14 @@ blockquote { border-left: 1px solid #dedddc; margin: 10px 0 10px 0; padding-left
 dt { font-family: 'Raleway', "Open Sans", sans-serif; font-weight: 400; font-style: italic; }
 
 dd { font-weight: 200; font-style: italic; }
+
+.year { font-family: 'Raleway', sans-serif; font-weight: 200; font-size: 14px; letter-spacing: 3px; float: right; }
+
+small { line-height: 1.6em; }
+
+b { font-weight: 500; color: #524d4a; }
+
+.cv { font-size: 12px; line-height: 1.6em; }
 
 .container { padding: 10px; max-width: 750px; min-height: 475px; margin: auto; }
 
