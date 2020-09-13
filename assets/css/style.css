@@ -103,7 +103,6 @@
 		}
 
 		.container {
-			position:relative;
 			padding:10px;
 			max-width:750px;
 			min-height:475px;
@@ -184,8 +183,8 @@
 			float: right;
 		}
 		/* For narrow browsers - stacks navigation layout*/ 
-		@media screen and (max-width: 600px) {
-		ul.nav li.right, ul.nav li {float:none; font-size: 10px; letter-spacing: 0.5; line-height: .25; padding: 0; margin: 0;}
+		@media screen and (max-width: 400px) {
+		ul.nav li.right, ul.nav li {float:none; font-size: 10px; letter-spacing: 0.5; line-height: 0.5; padding: 0; margin: 0;}
 		span.anchor {top:-140px;}
 		}
 	 /* FOOTER **********************************************/
