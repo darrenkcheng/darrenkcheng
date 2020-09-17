@@ -28,8 +28,8 @@
 			font-weight: 700;
 			color:#524d4a;
 			letter-spacing: 4px;
-			margin-top: 5px;
-			margin-bottom: 3px;
+			margin-top: 10px;
+			margin-bottom: 15px;
 		}
 		h2 {
 			font-family: 'Raleway', "Open Sans", sans-serif;
@@ -51,7 +51,7 @@
 			margin-bottom: 3px;
 		}
 		p {
-			padding: 5px 0 10px 0;
+			padding: 5px 0 5px 0;
 			margin: 0;
 		}
 		a {color:#59330f; font-weight:400; transition: 0.1s}
@@ -90,7 +90,7 @@
 			border-left: 1px solid #dedddc;
 			margin:10px 0 10px 0;
 			padding-left: 22px;
-			line-height: 1.6em;
+			line-height: 1.4em;
 		}
 		dt {
 			font-family: 'Raleway', "Open Sans", sans-serif;
@@ -129,8 +129,8 @@
 		 	height:1px;
 		 	border-width:0;
 		 	background-color:#dedddc;
-		 	margin-top: 15px;
-		 	margin-bottom:5px;
+		 	margin-top: 25px;
+		 	margin-bottom:20px;
 		 }
 	 /* BANNER ***********************************************/
 		.banner {
